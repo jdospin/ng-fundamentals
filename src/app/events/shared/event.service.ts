@@ -311,6 +311,7 @@ const EVENTS = [
 export class EventService {
 
     getEvents() {
+      const test = 12;
         return EVENTS;
     }
 }
